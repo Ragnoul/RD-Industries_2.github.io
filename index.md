@@ -1,37 +1,187 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RD-Industries</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+    </style>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/2befaa3d1b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <link rel="icon" type="image/svg" sizes="32x32" href="logo_rd.svg">
+</head>
+<body>
+    <!-- Navbar Section-->
+    <nav class="navbar">
+        <div class="navbar_container">
+            <a href="#home" id="navbar_logo">RD-Industries</a>
+            <div class="navbar_toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                </li>
+                <li class="navbar_item">
+                    <a href="connexion.html" class="navbar_links" id="Connexion-page">Connexion</a>
+                <!--</li>
+                <li class="navbar_btn">
+                    <a href="#sign-up" class="button" id="signup">Se connecter</a>
+                </li>-->
+            </ul>
+        </div>
+    </nav>
 
-You can use the [editor on GitHub](https://github.com/Ragnoul/RD-Industries_2.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero_container">
+            <h1 class="hero_heading"><span>RD-Industries</span></h1>
+            <p class="hero_description"></p>
+            <button class="main_btn"><a href="team.html">Nous découvrir</a></button>
+        </div>
+    </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <!-- About Sction -->
+    <div class="main" id="about">
+        <div class="main_container">
+            <div class="main_img-container">
+                <div class="main_img-card"><i class="fas fa-layer-group"></i></div>
+            </div>
+            <div class="main_content">
+                <h1></h1>
+                <h2>Besoin d'un renseignement ?</h2>
+                <p>Une question ? Une demande ?</p>
+                <button class="main_btn"><a href="help.html">Contactez nous</a></button>
+            </div>
+        </div>
+    </div>
 
-### Markdown
+    <!-- Projets Section -->
+    <div class="services" id="projets">
+        <h1>Nos Projets</h1>
+        <div class="services_wrapper">
+            <div class="services_card">
+                <h2>Servus Bot</h2>
+                <p>Le Bot Discord multi-tâche</p>
+                <div class="services_btn"><button><a href="servus.html">Documentation</a></button></div>
+            </div>
+            <div class="services_card">
+                <h2>Drone Lights Show</h2>
+                <p>Un spectacle hors du commmun</p>
+                <div class="services_btn"><button><a href="drone.html">Découvrir</a></button></div>
+            </div>
+            <div class="services_card">
+                <h2>Gipsy</h2>
+                <p>L'intelligence artificielle (Vocale) d'RD</p>
+                <div class="services_btn"><button><a href="Gipsy.html">Découvrir</a></button></div>
+            </div>
+            <div class="services_card">
+                <h2>Evenements à venir</h2>
+                <p>Annonces et Autres</p>
+                <div class="services_btn"><button><a href=".html">Voir le calendrier</a></button></div>
+            </div>
+            <div class="services_card">
+                <h2>James & Hercul</h2>
+                <p>Plus utils qu'esthétiques</p>
+                <div class="services_btn"><button><a href="robots.html">Nos robots</a></button></div>
+            </div>
+        </div>
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <!-- Features Section -->
+    <div class="main" id="reseaux">
+        <div class="main_container">
+            <div class="main_content">
+                <h1>Nos Réseaux</h1>
+                <h2></h2>
+                <p>Les informations en continu pour vous.</p>
+                <button class="main_btn"><a href="#reseaux">Réseaux</a></button>
+            </div>
+            <div class="main_img-container">
+                <div class="main_img-card" id="card-2">
+                    <i class="fas fa-users"></i>
+                </div>
+            </div>
+        </div>
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <!-- Footer Section -->
+    <div class="footer_container">     
+        <div class="footer_links">
+            <div class="footer_link-wrapper">
+                <div class="footer_link-items">
+                    <h2>About Us</h2>
+                    <a href="/sign-up">How it works</a>
+                    <a href="/sign-up">Testimonials</a>
+                    <a href="/sign-up">Careers</a>
+                    <a href="/sign-up">Terms of Service</a>
+                </div>
+                <div class="footer_link-items">
+                    <h2>Team RD</h2>
+                    <a href="/sign-up">How it works</a>
+                    <a href="/sign-up">Testimonials</a>
+                    <a href="/sign-up">Careers</a>
+                    <a href="/sign-up">Terms of Service</a>
+                </div>
+            </div>
+            <div class="footer_link-wrapper">
+                <div class="footer_link-items">
+                    <h2>Nous soutenir</h2>
+                    <a href="/https://paypal.me/ayoxtechnology">PayPal</a>
+                    <a href="/sign-up">Tipee</a>
+                    <a href="/sign-up">Carrière</a>
+                    <a href="/sign-up">Services ou autre</a>
+                </div>
+                <div class="footer_link-items">
+                    <h2>Réseaux sociaux</h2>
+                    <a href="/https://www.youtube.com/channel/UCX_80zKuur8fh5UxavnRTew">YouTube</a>
+                    <a href="/https://discord.gg/VNMbCArg8W">Discord</a>
+                    <a href="/https://www.instagram.com/ayoxtechnology/">Instagram</a>
+                    <a href="/https://twitter.com/Ayox_Technology">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <section class="social_media">
+        <div class="social_media-wrap">
+            <div class="footer_logo">
+                <a href="/" id="footer_logo">RD-Industries</a>
+            </div>
+            <p class="website_rights">© RD-Industries 2022. Tous les droits réservés</p>
+            <div class="social_icons">
+                <a href="https://discord.gg/VNMbCArg8W" class="social_icons-links" target="_blank"><i class="fab fa-discord"></i></a>
+                <a href="https://www.youtube.com/channel/UCX_80zKuur8fh5UxavnRTew" class="social_icons-links"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/ayoxtechnology/" class="social_icons-links"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/Ayox_Technology" class="social_icons-links"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        </section>
+    </div>
 
-# Header 1
-## Header 2
-### Header 3
+    <!-- Cookies -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000000"
+    },
+    "button": {
+      "background": "#02b360"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-left",
+  "content": {
+    "message": "Ce site utilise des cookies pour vous garantir la meilleure expérience possible.",
+    "dismiss": "Autoriser les cookies",
+    "deny": "Refuser",
+    "link": "Voir plus"
+  }
+});
+</script>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ragnoul/RD-Industries_2.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <script src="app.js"></script>
+</body>
+</html>
